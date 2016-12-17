@@ -2,13 +2,13 @@ import java.util.ArrayList;
 
 public class Problem4 {
     public static void main(String[] args) {
-        int temp = 0;
+        int n = 0;
 
         for (int i = 900; i <= 999; i++) {
             for (int j = 900; j <= 999; j++) {
-                temp = i * j;
-                if (isPalindrome(temp)) {
-                    System.out.println(temp);
+                n = i * j;
+                if (isPalindrome(n)) {
+                    System.out.println(n);
                 }
             }
         }
