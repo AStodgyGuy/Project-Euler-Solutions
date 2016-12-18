@@ -25,6 +25,7 @@ public class Problem8 {
                 temp = temp.multiply(numberList.get(i + j));
             }
 
+            //if the new number is greater than the largest number then set the new number as the largestNumber
             if (temp.compareTo(largestNumber) == 1) {
                 largestNumber = temp;  
             }
