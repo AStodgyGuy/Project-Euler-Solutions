@@ -21,5 +21,3 @@ public class Problem10 {
         return true;
     }
 }
-
-
