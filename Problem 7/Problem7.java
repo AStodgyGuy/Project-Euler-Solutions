@@ -3,7 +3,7 @@ public class Problem7 {
         int counter  = 1;
         int  i = 2;
 
-        do {
+        while (counter <= 10001) {
             i++;
             if (isPrime(i)) {
                 counter++;
@@ -11,7 +11,7 @@ public class Problem7 {
                     System.out.println(i);
                 }
             }
-        } while (counter < 10001);
+        }
     }
 
     public static boolean isPrime(int n) {
