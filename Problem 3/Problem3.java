@@ -3,8 +3,6 @@ import java.lang.Math;
 public class Problem3 {
     public static void main(String[] args) {
         long target = 600851475143L;
-        
-
         for (int i = 2; i < Math.sqrt(target); i++) {
             if (target % i == 0) {
                 if (isPrime(i)) {
